@@ -1,0 +1,69 @@
+virt-what (1.11-1) unstable; urgency=low
+
+  * [6981fe1] Imported Upstream version 1.11
+  * [dfb3627] Bump Standards-Version to 3.9.2
+
+ -- Laurent Léonard <laurent@open-minds.org>  Sat, 28 May 2011 18:12:30 +0200
+
+virt-what (1.9-1) unstable; urgency=low
+
+  * [ee63aec] Remove debian/dirs
+  * [8278875] Imported Upstream version 1.9
+
+ -- Laurent Léonard <laurent@open-minds.org>  Thu, 10 Mar 2011 00:43:49 +0100
+
+virt-what (1.8-1) unstable; urgency=low
+
+  * [191096f] Imported Upstream version 1.8
+
+ -- Laurent Léonard <laurent@open-minds.org>  Wed, 16 Feb 2011 10:39:19 +0100
+
+virt-what (1.7-1) experimental; urgency=low
+
+  * [83acfaa] Imported Upstream version 1.7
+
+ -- Laurent Léonard <laurent@open-minds.org>  Sun, 30 Jan 2011 16:12:18 +0100
+
+virt-what (1.3-1) experimental; urgency=low
+
+  * [3a761e2] Imported Upstream version 1.3
+  * [e813a75] Bump Standards-Version to 3.9.1
+  * [8bb0067] Update debian/rules
+
+ -- Laurent Léonard <laurent@open-minds.org>  Thu, 04 Nov 2010 00:08:19 +0100
+
+virt-what (1.2-1) unstable; urgency=low
+
+  * [d89e616] Reorder debian/rules targets.
+  * [010eae6] Imported Upstream version 1.2
+  * [21aa31a] Drop patches. 
+     0001-Change-virt-what-cpuid-helper-path-to-usr-lib-virt-w.patch 
+         - fixed upstream.
+     0002-Add-UML-support.patch 
+         - applied upstream.
+     0003-Add-VirtualBox-support.patch 
+         - applied upstream.
+  * [8db5f35] Update debian/rules.
+  * [dfcb745] Allow DM upload.
+  * [9099d2a] Drop Quilt README.source.
+
+ -- Laurent Léonard <laurent@open-minds.org>  Sat, 26 Dec 2009 16:45:27 +0100
+
+virt-what (1.1-2) unstable; urgency=low
+
+  * [ec6c9a0] Add UML support. Pulled from upstream fd81b8d.
+  * [e6a8c93] Add VirtualBox support. Pulled from upstream b103ff5.
+  * [b21e795] Bump Standards-Version to 3.8.3.
+  * [4e8a17b] Use DEB_DESTDIR variable to move virt-what-cpuid-helper.
+  * [b65743f] Use Makefile conventions in debian/rules.
+  * [42714e7] Move virt-what to /usr/sbin.
+  * [a331023] Make dmidecode dependency architecture specific. (Closes: #543810)
+  * [6c425f1] Remove debian/docs.
+
+ -- Laurent Léonard <laurent@open-minds.org>  Mon, 31 Aug 2009 00:54:07 +0200
+
+virt-what (1.1-1) unstable; urgency=low
+
+  * Initial release. (Closes: #538202)
+
+ -- Laurent Léonard <laurent@open-minds.org>  Thu, 23 Jul 2009 23:29:49 +0200
