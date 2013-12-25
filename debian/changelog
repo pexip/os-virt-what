@@ -1,3 +1,9 @@
+virt-what (1.11-1pexip1) pexip; urgency=low
+
+  * Prepare Pexip packaging
+
+ -- John-Mark Bell <jmb@pexip.com>  Wed, 25 Dec 2013 05:23:05 +0000
+
 virt-what (1.11-1) unstable; urgency=low
 
   * [6981fe1] Imported Upstream version 1.11
