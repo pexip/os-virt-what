@@ -62,9 +62,27 @@ Status: confirmed by RWMJ using a Fedora guest running in z/VM
 
 =item B<linux_vserver>
 
+This is printed for backwards compatibility with older virt-what which
+could not distinguish between a Linux VServer container guest and
+host.
+
+=item B<linux_vserver-guest>
+
 This process is running in a Linux VServer container.
 
 Status: contributed by Barış Metin
+
+=item B<linux_vserver-host>
+
+This process is running as the Linux VServer host (VxID 0).
+
+Status: contributed by Barış Metin and Elan Ruusamäe
+
+=item B<lxc>
+
+This process is running in a Linux LXC container.
+
+Status: contributed by Marc Fournier
 
 =item B<kvm>
 
@@ -228,6 +246,13 @@ tool.
 =item Status display and monitoring tools
 
 You might include this information in status and monitoring programs.
+
+=item System tuning (sometimes)
+
+You might use this program to tune an operating system so it runs
+better as a virtual machine of a particular hypervisor.  However if
+installing paravirtualized drivers, it's better to check for the
+specific features your drivers need (eg. for the presence of PCI devices).
 
 =back
 

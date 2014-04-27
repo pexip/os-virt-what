@@ -1,4 +1,4 @@
-# Test for RHEL 5 Xen DomU HVM (aka full virtualization) on IA64.
+# Test for lxc
 # Copyright (C) 2008-2011 Red Hat Inc.
 #
 # This program is free software; you can redistribute it and/or modify
@@ -15,11 +15,10 @@
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-root=tests/rhel5-xen-domU-hvm-ia64
+root=tests/lxc
 
 output="$(./virt-what --test-root=$root 2>&1)"
-expected="xen
-xen-hvm"
+expected="lxc"
 
 if [ "$output" != "$expected" ]; then
     echo "$0: test failed because output did not match expected"
