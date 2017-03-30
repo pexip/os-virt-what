@@ -10,7 +10,7 @@ Vcs-Git: git://git.debian.org/pkg-libvirt/virt-what.git
 Vcs-Browser: http://git.debian.org/?p=pkg-libvirt/virt-what.git
 Homepage: http://et.redhat.com/~rjones/virt-what
 DM-Upload-Allowed: yes
-XS-Pexip-Upstream: http://archive.ubuntu.com/ubuntu/ precise
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
 
 Package: virt-what
 Architecture: any
