@@ -1,3 +1,32 @@
+virt-what (1.14-1pexip1) pexip; urgency=low
+
+  * Migrate to Jessie
+
+ -- John-Mark Bell <jmb@pexip.com>  Thu, 30 Mar 2017 23:55:31 +0100
+
+virt-what (1.14-1) unstable; urgency=medium
+
+  * [423b78c] Imported Upstream version 1.14
+  * [a79fcc7] Use autoreconf
+  * [29bfbac] Bump Standards-Version to 3.9.5
+
+ -- Laurent Léonard <laurent@open-minds.org>  Sun, 27 Apr 2014 02:59:54 +0200
+
+virt-what (1.13-1) unstable; urgency=low
+
+  * [4b476d9] Imported Upstream version 1.13
+  * [303b5e6] Remove obsolete DM-Upload-Allowed field
+  * [ca3952e] Bump Standards-Version to 3.9.4
+
+ -- Laurent Léonard <laurent@open-minds.org>  Wed, 21 Aug 2013 01:01:57 +0200
+
+virt-what (1.12-1) unstable; urgency=low
+
+  * [c5ac7c9] Imported Upstream version 1.12
+  * [a45b860] Bump Standards-Version to 3.9.3
+
+ -- Laurent Léonard <laurent@open-minds.org>  Sun, 22 Apr 2012 00:43:36 +0200
+
 virt-what (1.11-1pexip1) pexip; urgency=low
 
   * Prepare Pexip packaging
