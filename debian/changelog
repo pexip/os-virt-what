@@ -1,3 +1,41 @@
+virt-what (1.15-1+deb9u1) stable-proposed-updates; urgency=medium
+
+  * Unbreak virt detection on arm/aarch64 (Closes: #888690)
+
+ -- Guido Günther <agx@sigxcpu.org>  Sun, 28 Jan 2018 19:41:53 +0100
+
+virt-what (1.15-1) unstable; urgency=medium
+
+  [ Guido Günther ]
+  * Move to DEP-14 compliant branch names.
+
+  [ Joao Eriberto Mota Filho ]
+  * New upstream version 1.15.
+  * New co-maintainer.
+  * New upstream homepage.
+  * Migrations:
+      - DebSrc to 3.0 format.
+      - DH level to 10.
+      - Dropped CDBS. Using DebHelper.
+  * Run wrap-and-sort.
+  * debian/control:
+      - Bumped Standards-Version to 3.9.8.
+      - Changed Priority to optional.
+      - Removed a MIA co-maintainer.
+      - Updated the Vcs-* fields.
+  * debian/copyright:
+      - Migrated to 1.0 format.
+      - Fixed the licensing to GPL-2+.
+      - Updated all information.
+  * debian/rules: added the DEB_BUILD_MAINT_OPTIONS variable to improve the
+    GCC hardening.
+  * debian/watch:
+      - Bumped to version 4.
+      - Updated to use the new upstream place.
+      - Using a signature to verify the tarball.
+
+ -- Joao Eriberto Mota Filho <eriberto@debian.org>  Sat, 24 Dec 2016 01:41:46 -0200
+
 virt-what (1.14-1) unstable; urgency=medium
 
   * [423b78c] Imported Upstream version 1.14
