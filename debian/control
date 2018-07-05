@@ -9,7 +9,7 @@ Standards-Version: 3.9.5
 Vcs-Git: git://git.debian.org/pkg-libvirt/virt-what.git
 Vcs-Browser: http://git.debian.org/?p=pkg-libvirt/virt-what.git
 Homepage: http://et.redhat.com/~rjones/virt-what
-XS-Pexip-Upstream: http://ftp.debian.org/debian/ jessie
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ stretch
 
 Package: virt-what
 Architecture: any
