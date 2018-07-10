@@ -1,3 +1,9 @@
+virt-what (1.15-1+deb9u1pexip1) pexip; urgency=medium
+
+  * Migrate to Stretch
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 10 Jul 2018 11:55:27 +0000
+
 virt-what (1.15-1+deb9u1) stable-proposed-updates; urgency=medium
 
   * Unbreak virt detection on arm/aarch64 (Closes: #888690)
