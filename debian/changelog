@@ -1,3 +1,9 @@
+virt-what (1.19-1pexip1) pexip; urgency=medium
+
+  * Migrate to Buster
+
+ -- Vincent Sanders <vince@pexip.com>  Sun, 01 Mar 2020 21:46:54 +0000
+
 virt-what (1.19-1) unstable; urgency=medium
 
   * Team upload.
