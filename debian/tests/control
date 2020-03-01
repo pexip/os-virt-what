@@ -1,0 +1,2 @@
+Test-Command: virt-what --version
+Restrictions: needs-root
